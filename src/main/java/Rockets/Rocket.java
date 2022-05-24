@@ -15,4 +15,8 @@ public abstract class Rocket {
     public int getCapacity(){
         return this.capacity;
     }
+    protected String fly(){
+        return "Rocket Data Here";
+    }
+
 }
